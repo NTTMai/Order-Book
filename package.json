@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://NTTMai.github.io/Order-Book",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NTTMai/Order-Book"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
