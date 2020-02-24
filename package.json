@@ -28,7 +28,7 @@
     "styles:build": "node-sass-chokidar --include-path ./node_modules src/ -o src/",
     "styles:watch": "npm run styles:build && node-sass-chokidar --include-path ./node_modules src/ -o src/ --watch --recursive",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --depth=0"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
