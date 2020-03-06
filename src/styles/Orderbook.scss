@@ -1,17 +1,17 @@
 .Orderbook {
   display: flex;
-//   align-items: center;
+  //   align-items: center;
   height: 100vh;
   flex-direction: column;
   flex-wrap: nowrap;
 
   &__header {
-    color: #fff;
-    background: #1a2125;
+    color: white;
+    background: #20222b;
 
     &__top {
       position: relative;
-      border-bottom: 1px solid #15181c;
+      border-bottom: 1px solid #333745;
       padding: 15px 40px;
       padding-left: 65px;
       font-size: 14px;
@@ -38,17 +38,17 @@
       padding-left: 65px;
 
       // Spacer
-    //   &::before {
-    //     background: #1a2125;
-    //     position: absolute;
-    //     left: 0;
-    //     top: 0;
-    //     bottom: 0;
-    //     width: 25px;
-    //     content: "";
-    //     display: block;
-    //     border-right: 1px solid #15181c;
-    //   }
+      //   &::before {
+      //     background: #1a2125;
+      //     position: absolute;
+      //     left: 0;
+      //     top: 0;
+      //     bottom: 0;
+      //     width: 25px;
+      //     content: "";
+      //     display: block;
+      //     border-right: 1px solid #15181c;
+      //   }
 
       .bold {
         margin-right: 5px;
@@ -72,30 +72,30 @@
     // flex-wrap: nowrap;
     flex-grow: 1;
     // max-width: 420px;
-    color: #fff;
-    background: #18232b;
+    color: white;
+    background: #3c4251;
     border-right: 1px solid #15181c;
 
     &__header {
       position: relative;
       border-bottom: 1px solid #15181c;
-      background: #323d44;
-      color: #fff;
+      background: #464b5e;
+      color: white;
       padding: 15px 20px;
       padding-left: 65px;
 
       // Spacer
-    //   &::before {
-    //     background: #323d44;
-    //     position: absolute;
-    //     left: 0;
-    //     top: 0;
-    //     bottom: 0;
-    //     width: 25px;
-    //     content: "";
-    //     display: block;
-    //     border-right: 1px solid #15181c;
-    //   }
+      //   &::before {
+      //     background: #323d44;
+      //     position: absolute;
+      //     left: 0;
+      //     top: 0;
+      //     bottom: 0;
+      //     width: 25px;
+      //     content: "";
+      //     display: block;
+      //     border-right: 1px solid #15181c;
+      //   }
 
       .heading {
         font-size: 14px;
@@ -107,22 +107,22 @@
       text-align: right;
       position: relative;
       border-bottom: 1px solid #15181c;
-      color: #fff;
+      color: white;
       padding: 10px 0;
       padding-left: 25px;
 
       // Spacer
-    //   &::before {
-    //     background: #323d44;
-    //     position: absolute;
-    //     left: 0;
-    //     top: 0;
-    //     bottom: 0;
-    //     width: 25px;
-    //     content: "";
-    //     display: block;
-    //     border-right: 1px solid #15181c;
-    //   }
+      //   &::before {
+      //     background: #323d44;
+      //     position: absolute;
+      //     left: 0;
+      //     top: 0;
+      //     bottom: 0;
+      //     width: 25px;
+      //     content: "";
+      //     display: block;
+      //     border-right: 1px solid #15181c;
+      //   }
 
       .heading {
         font-size: 12px;
@@ -148,20 +148,20 @@
       flex-grow: 1;
       position: relative;
       border-bottom: 1px solid #15181c;
-      color: #fff;
+      color: white;
 
       // Spacer
-    //   &::before {
-    //     background: #323d44;
-    //     position: absolute;
-    //     left: 0;
-    //     top: 0;
-    //     bottom: 0;
-    //     width: 25px;
-    //     content: "";
-    //     display: block;
-    //     border-right: 1px solid #15181c;
-    //   }
+      //   &::before {
+      //     background: #323d44;
+      //     position: absolute;
+      //     left: 0;
+      //     top: 0;
+      //     bottom: 0;
+      //     width: 25px;
+      //     content: "";
+      //     display: block;
+      //     border-right: 1px solid #15181c;
+      //   }
 
       &-inner {
         padding: 10px 0;
@@ -182,13 +182,13 @@
 
       .asks {
         .price {
-          color: #ee7248;
+          color: red;
         }
       }
 
       .bids {
         .price {
-          color: #a1f379;
+          color: green;
         }
       }
     }
@@ -240,11 +240,11 @@
 }
 
 .color-green {
-  color: #a1f379;
+  color: green;
 }
 
 .color-red {
-  color: #ee7248;
+  color: red;
 }
 
 .error-- {
